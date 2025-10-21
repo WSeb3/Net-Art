@@ -16,22 +16,21 @@
              background-size: contain;
              background-position: center;
              text-align: center}
-      .people {
-                float: left;
+      .column { float: left;
                 width: 33.33%;
                 padding: 5px;}
-      .column::after {content: "";
+      .row::after {content: "";
                   clear: both;
                   display: table;}
     </style>
 </head>
 <body>
     <h1>We're here, but damn. There is an enemy in the way.</h1>
-    <div class="people">
-      <div class="column">
+    <div class="column">
+      <div class="row">
         <img src="MHX.png" alt="MHX">
       </div>
-      <div class="column">
+      <div class="row">
         <img src="evilhand.jpg" alt="evilhand">
     </div>
     <div class="center-button">
